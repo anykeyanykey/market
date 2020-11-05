@@ -4,7 +4,7 @@ const lodash = require('lodash');
 class Trend {
 
     constructor() {
-        this._rand = lodash.random(1, 98);
+        this._rand = lodash.random(1,  98);
         this._powder = Math.min(99 - this._rand, 99 - (99 - this._rand))
     }
 
